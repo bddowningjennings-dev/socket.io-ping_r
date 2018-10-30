@@ -14,7 +14,8 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = initializeState(this.props)
-    this.socket = io('http://localhost:8000')
+    this.socket = io()
+    // this.socket = io('http://localhost:8000')
   }
   componentDidMount() {
     const userName = localStorage.getItem('userName')

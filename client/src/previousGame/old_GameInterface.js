@@ -7,7 +7,7 @@ import GameControls from './components/GameControls';
 import io from 'socket.io-client'
 import { gameSockets } from '../helpers/helpers'
 
-const socket = io('http://localhost:8000')
+// const socket = io('http://localhost:8000')
 
 const initializeState = props => {
     return {

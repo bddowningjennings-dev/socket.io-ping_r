@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import './GameCanvas.css';
 
 import axios from 'axios';
-import io from 'socket.io-client'
-const socket = io('http://localhost:8000')
+// import io from 'socket.io-client'
+// const socket = io('http://localhost:8000')
 
 const sleep = ms => {
   return new Promise(resolve => setTimeout(resolve, ms));
