@@ -1,0 +1,14 @@
+.Header {
+  height: 60px;
+  background-color: rgba(47, 189, 189, 0.582);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.Header > .title {
+  color: white;
+  font-size: 26px;
+  margin: 0 20px;
+}

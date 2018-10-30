@@ -1,0 +1,14 @@
+.Room {
+  background-color: rgba(209, 209, 137, 0.719);
+  /* color: wheat; */
+  padding: 30px 20px;
+  width: 25%;
+}
+
+.Room .msgs {
+  background-color: white;
+}
+
+.Room input.newMsg {
+  width: 100%;
+}

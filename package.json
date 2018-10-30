@@ -1,0 +1,17 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bddowningjennings-dev <bddowningjennings.dev@gmail.com> (https://bddowningjennings-dev.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1"
+  }
+}
